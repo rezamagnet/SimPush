@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E21DC5A42439943D00C3D5A2 /* DefaultJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21DC5A32439943D00C3D5A2 /* DefaultJSON.swift */; };
+		E261284A2439972D001F2247 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E26128482439972D001F2247 /* LICENSE */; };
+		E261284B2439972D001F2247 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E26128492439972D001F2247 /* README.md */; };
 		E2BAF36B243941B400887CF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BAF36A243941B400887CF5 /* AppDelegate.swift */; };
 		E2BAF36D243941B400887CF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BAF36C243941B400887CF5 /* ContentView.swift */; };
 		E2BAF36F243941B500887CF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BAF36E243941B500887CF5 /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		E21DC5A32439943D00C3D5A2 /* DefaultJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultJSON.swift; sourceTree = "<group>"; };
+		E26128482439972D001F2247 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		E26128492439972D001F2247 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		E2BAF367243941B400887CF5 /* SimPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimPush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BAF36A243941B400887CF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2BAF36C243941B400887CF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 		E2BAF369243941B400887CF5 /* SimPush */ = {
 			isa = PBXGroup;
 			children = (
+				E26128482439972D001F2247 /* LICENSE */,
+				E26128492439972D001F2247 /* README.md */,
 				E2BAF36C243941B400887CF5 /* ContentView.swift */,
 				E2BAF3992439436E00887CF5 /* MacEditorTextView.swift */,
 				E2BAF373243941B500887CF5 /* Main.storyboard */,
@@ -272,6 +278,8 @@
 			files = (
 				E2BAF375243941B500887CF5 /* Main.storyboard in Resources */,
 				E2BAF372243941B500887CF5 /* Preview Assets.xcassets in Resources */,
+				E261284B2439972D001F2247 /* README.md in Resources */,
+				E261284A2439972D001F2247 /* LICENSE in Resources */,
 				E2BAF36F243941B500887CF5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

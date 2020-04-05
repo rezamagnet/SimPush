@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E21DC5A42439943D00C3D5A2 /* DefaultJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21DC5A32439943D00C3D5A2 /* DefaultJSON.swift */; };
+		E2BAF36B243941B400887CF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BAF36A243941B400887CF5 /* AppDelegate.swift */; };
+		E2BAF36D243941B400887CF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BAF36C243941B400887CF5 /* ContentView.swift */; };
+		E2BAF36F243941B500887CF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BAF36E243941B500887CF5 /* Assets.xcassets */; };
+		E2BAF372243941B500887CF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BAF371243941B500887CF5 /* Preview Assets.xcassets */; };
+		E2BAF375243941B500887CF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BAF373243941B500887CF5 /* Main.storyboard */; };
+		E2BAF381243941B500887CF5 /* SimPushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BAF380243941B500887CF5 /* SimPushTests.swift */; };
+		E2BAF38C243941B500887CF5 /* SimPushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BAF38B243941B500887CF5 /* SimPushUITests.swift */; };
+		E2BAF39A2439436E00887CF5 /* MacEditorTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BAF3992439436E00887CF5 /* MacEditorTextView.swift */; };
+		E2BAF39C243971D300887CF5 /* Extension+hiddenModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BAF39B243971D300887CF5 /* Extension+hiddenModifier.swift */; };
+		E2BAF39E243971FC00887CF5 /* Extension+document.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BAF39D243971FC00887CF5 /* Extension+document.swift */; };
+		E2BAF3A12439810200887CF5 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BAF3A02439810200887CF5 /* Shell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2BAF37D243941B500887CF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2BAF35F243941B400887CF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2BAF366243941B400887CF5;
+			remoteInfo = SimPush;
+		};
+		E2BAF388243941B500887CF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2BAF35F243941B400887CF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2BAF366243941B400887CF5;
+			remoteInfo = SimPush;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E21DC5A32439943D00C3D5A2 /* DefaultJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultJSON.swift; sourceTree = "<group>"; };
+		E2BAF367243941B400887CF5 /* SimPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimPush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BAF36A243941B400887CF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2BAF36C243941B400887CF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2BAF36E243941B500887CF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2BAF371243941B500887CF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2BAF374243941B500887CF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2BAF376243941B500887CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BAF377243941B500887CF5 /* SimPush.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimPush.entitlements; sourceTree = "<group>"; };
+		E2BAF37C243941B500887CF5 /* SimPushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimPushTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BAF380243941B500887CF5 /* SimPushTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimPushTests.swift; sourceTree = "<group>"; };
+		E2BAF382243941B500887CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BAF387243941B500887CF5 /* SimPushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimPushUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BAF38B243941B500887CF5 /* SimPushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimPushUITests.swift; sourceTree = "<group>"; };
+		E2BAF38D243941B500887CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BAF3992439436E00887CF5 /* MacEditorTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacEditorTextView.swift; sourceTree = "<group>"; };
+		E2BAF39B243971D300887CF5 /* Extension+hiddenModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+hiddenModifier.swift"; sourceTree = "<group>"; };
+		E2BAF39D243971FC00887CF5 /* Extension+document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+document.swift"; sourceTree = "<group>"; };
+		E2BAF3A02439810200887CF5 /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2BAF364243941B400887CF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BAF379243941B500887CF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BAF384243941B500887CF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2BAF35E243941B400887CF5 = {
+			isa = PBXGroup;
+			children = (
+				E2BAF369243941B400887CF5 /* SimPush */,
+				E2BAF37F243941B500887CF5 /* SimPushTests */,
+				E2BAF38A243941B500887CF5 /* SimPushUITests */,
+				E2BAF368243941B400887CF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2BAF368243941B400887CF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2BAF367243941B400887CF5 /* SimPush.app */,
+				E2BAF37C243941B500887CF5 /* SimPushTests.xctest */,
+				E2BAF387243941B500887CF5 /* SimPushUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2BAF369243941B400887CF5 /* SimPush */ = {
+			isa = PBXGroup;
+			children = (
+				E2BAF36C243941B400887CF5 /* ContentView.swift */,
+				E2BAF3992439436E00887CF5 /* MacEditorTextView.swift */,
+				E2BAF373243941B500887CF5 /* Main.storyboard */,
+				E2BAF377243941B500887CF5 /* SimPush.entitlements */,
+				E2BAF3A22439900000887CF5 /* Supporting Files */,
+				E2BAF39F2439720D00887CF5 /* Extensions */,
+				E2BAF370243941B500887CF5 /* Preview Content */,
+			);
+			path = SimPush;
+			sourceTree = "<group>";
+		};
+		E2BAF370243941B500887CF5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2BAF371243941B500887CF5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2BAF37F243941B500887CF5 /* SimPushTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2BAF380243941B500887CF5 /* SimPushTests.swift */,
+				E2BAF382243941B500887CF5 /* Info.plist */,
+			);
+			path = SimPushTests;
+			sourceTree = "<group>";
+		};
+		E2BAF38A243941B500887CF5 /* SimPushUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2BAF38B243941B500887CF5 /* SimPushUITests.swift */,
+				E2BAF38D243941B500887CF5 /* Info.plist */,
+			);
+			path = SimPushUITests;
+			sourceTree = "<group>";
+		};
+		E2BAF39F2439720D00887CF5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E2BAF39B243971D300887CF5 /* Extension+hiddenModifier.swift */,
+				E2BAF39D243971FC00887CF5 /* Extension+document.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E2BAF3A22439900000887CF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2BAF36A243941B400887CF5 /* AppDelegate.swift */,
+				E21DC5A32439943D00C3D5A2 /* DefaultJSON.swift */,
+				E2BAF3A02439810200887CF5 /* Shell.swift */,
+				E2BAF36E243941B500887CF5 /* Assets.xcassets */,
+				E2BAF376243941B500887CF5 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2BAF366243941B400887CF5 /* SimPush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2BAF390243941B500887CF5 /* Build configuration list for PBXNativeTarget "SimPush" */;
+			buildPhases = (
+				E2BAF363243941B400887CF5 /* Sources */,
+				E2BAF364243941B400887CF5 /* Frameworks */,
+				E2BAF365243941B400887CF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimPush;
+			productName = SimPush;
+			productReference = E2BAF367243941B400887CF5 /* SimPush.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2BAF37B243941B500887CF5 /* SimPushTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2BAF393243941B500887CF5 /* Build configuration list for PBXNativeTarget "SimPushTests" */;
+			buildPhases = (
+				E2BAF378243941B500887CF5 /* Sources */,
+				E2BAF379243941B500887CF5 /* Frameworks */,
+				E2BAF37A243941B500887CF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2BAF37E243941B500887CF5 /* PBXTargetDependency */,
+			);
+			name = SimPushTests;
+			productName = SimPushTests;
+			productReference = E2BAF37C243941B500887CF5 /* SimPushTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2BAF386243941B500887CF5 /* SimPushUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2BAF396243941B500887CF5 /* Build configuration list for PBXNativeTarget "SimPushUITests" */;
+			buildPhases = (
+				E2BAF383243941B500887CF5 /* Sources */,
+				E2BAF384243941B500887CF5 /* Frameworks */,
+				E2BAF385243941B500887CF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2BAF389243941B500887CF5 /* PBXTargetDependency */,
+			);
+			name = SimPushUITests;
+			productName = SimPushUITests;
+			productReference = E2BAF387243941B500887CF5 /* SimPushUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2BAF35F243941B400887CF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Reza Khonsari";
+				TargetAttributes = {
+					E2BAF366243941B400887CF5 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					E2BAF37B243941B500887CF5 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = E2BAF366243941B400887CF5;
+					};
+					E2BAF386243941B500887CF5 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = E2BAF366243941B400887CF5;
+					};
+				};
+			};
+			buildConfigurationList = E2BAF362243941B400887CF5 /* Build configuration list for PBXProject "SimPush" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2BAF35E243941B400887CF5;
+			productRefGroup = E2BAF368243941B400887CF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2BAF366243941B400887CF5 /* SimPush */,
+				E2BAF37B243941B500887CF5 /* SimPushTests */,
+				E2BAF386243941B500887CF5 /* SimPushUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2BAF365243941B400887CF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BAF375243941B500887CF5 /* Main.storyboard in Resources */,
+				E2BAF372243941B500887CF5 /* Preview Assets.xcassets in Resources */,
+				E2BAF36F243941B500887CF5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BAF37A243941B500887CF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BAF385243941B500887CF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2BAF363243941B400887CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21DC5A42439943D00C3D5A2 /* DefaultJSON.swift in Sources */,
+				E2BAF3A12439810200887CF5 /* Shell.swift in Sources */,
+				E2BAF39C243971D300887CF5 /* Extension+hiddenModifier.swift in Sources */,
+				E2BAF36D243941B400887CF5 /* ContentView.swift in Sources */,
+				E2BAF36B243941B400887CF5 /* AppDelegate.swift in Sources */,
+				E2BAF39E243971FC00887CF5 /* Extension+document.swift in Sources */,
+				E2BAF39A2439436E00887CF5 /* MacEditorTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BAF378243941B500887CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BAF381243941B500887CF5 /* SimPushTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2BAF383243941B500887CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BAF38C243941B500887CF5 /* SimPushUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2BAF37E243941B500887CF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2BAF366243941B400887CF5 /* SimPush */;
+			targetProxy = E2BAF37D243941B500887CF5 /* PBXContainerItemProxy */;
+		};
+		E2BAF389243941B500887CF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2BAF366243941B400887CF5 /* SimPush */;
+			targetProxy = E2BAF388243941B500887CF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2BAF373243941B500887CF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2BAF374243941B500887CF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2BAF38E243941B500887CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2BAF38F243941B500887CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E2BAF391243941B500887CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimPush/SimPush.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SimPush/Preview Content\"";
+				DEVELOPMENT_TEAM = V6RS859928;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SimPush/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magnet.SimPush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E2BAF392243941B500887CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimPush/SimPush.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SimPush/Preview Content\"";
+				DEVELOPMENT_TEAM = V6RS859928;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SimPush/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magnet.SimPush;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E2BAF394243941B500887CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V6RS859928;
+				INFOPLIST_FILE = SimPushTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magnet.SimPushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimPush.app/Contents/MacOS/SimPush";
+			};
+			name = Debug;
+		};
+		E2BAF395243941B500887CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V6RS859928;
+				INFOPLIST_FILE = SimPushTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magnet.SimPushTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimPush.app/Contents/MacOS/SimPush";
+			};
+			name = Release;
+		};
+		E2BAF397243941B500887CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V6RS859928;
+				INFOPLIST_FILE = SimPushUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.magnet.SimPushUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SimPush;
+			};
+			name = Debug;
+		};
+		E2BAF398243941B500887CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V6RS859928;
+				INFOPLIST_FILE = SimPushUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.magnet.SimPushUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SimPush;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2BAF362243941B400887CF5 /* Build configuration list for PBXProject "SimPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BAF38E243941B500887CF5 /* Debug */,
+				E2BAF38F243941B500887CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2BAF390243941B500887CF5 /* Build configuration list for PBXNativeTarget "SimPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BAF391243941B500887CF5 /* Debug */,
+				E2BAF392243941B500887CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2BAF393243941B500887CF5 /* Build configuration list for PBXNativeTarget "SimPushTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BAF394243941B500887CF5 /* Debug */,
+				E2BAF395243941B500887CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2BAF396243941B500887CF5 /* Build configuration list for PBXNativeTarget "SimPushUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BAF397243941B500887CF5 /* Debug */,
+				E2BAF398243941B500887CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2BAF35F243941B400887CF5 /* Project object */;
+}

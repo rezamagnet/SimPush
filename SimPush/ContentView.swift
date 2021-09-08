@@ -64,17 +64,16 @@ struct ContentView: View {
                     try self.textViewValue.write(to: self.savedAPNSurl, atomically: true, encoding: .utf8)
                     let shellResult = try doShell("xcrun", "simctl", "push" , self.identifier, self.savedAPNSurl.path)
                     debugPrint(shellResult)
-                } catch ShellError.apnsPathIsIncorrect(let error) {
-                    NSAlert(error: error)
-                    .runModal()
+                    
+                } catch ShellError.APNSPathIsIncorrect {
+                    NSAlert(error: NSError(domain: "APNS file dosen't exists", code: .zero))
+                        .runModal()
+                        
                 } catch {
                     NSAlert(error: error)
                     .runModal()
                 }
-                
-                
-                
-                
+
             }) {
                 Text("Push")
                     .bold()

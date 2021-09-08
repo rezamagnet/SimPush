@@ -10,7 +10,7 @@ import Foundation
 
 
 enum ShellError : Error {
-    case apnsPathIsIncorrect(NSError)
+    case APNSPathIsIncorrect
 }
 
 func doShell(_ args: String...) throws -> Int32 {
@@ -19,9 +19,6 @@ func doShell(_ args: String...) throws -> Int32 {
     task.arguments = args
     task.launch()
     task.waitUntilExit()
-    if task.terminationStatus != 0 {
-        let error = NSError(domain: "APNS file dosen't exist.", code: Int(task.terminationStatus))
-        throw ShellError.apnsPathIsIncorrect(error)
-    }
+    guard task.terminationStatus == 0 else { throw ShellError.APNSPathIsIncorrect }
     return task.terminationStatus
 }

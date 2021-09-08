@@ -15,7 +15,7 @@ enum ShellError : Error {
 
 func doShell(_ args: String...) throws -> Int32 {
     let task = Process()
-    task.launchPath = "/usr/bin/env"
+    task.launchPath = "/bin/zsh"
     task.arguments = args
     task.launch()
     task.waitUntilExit()
